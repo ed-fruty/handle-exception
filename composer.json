@@ -1,0 +1,20 @@
+{
+    "name": "ed-fruty/handle-exception",
+    "description": "Exception type hinting handler and debug based on filp/whoops",
+    "require": {
+        "filp/whoops": "1.*"
+    },
+    "autoload" : {
+      "psr-4" : {
+        "Fruty\\Exception\\" : "src/"
+      }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fruty",
+            "email": "ed.fruty@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
